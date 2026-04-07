@@ -90,15 +90,6 @@ const Navbar = () => {
             </li>
           ))}
           <li className="nav-item">
-            <Link
-              to="/blogs"
-              className={`nav-link ${location.pathname === '/blogs' ? 'active' : ''}`}
-              onClick={closeMenu}
-            >
-              <i className="fas fa-blog"></i> Blogs
-            </Link>
-          </li>
-          <li className="nav-item">
             <a
               href="https://drive.google.com/file/d/1PPTeNhWFhypn_v7nq-tzXjVbl-wppqZ-/view?usp=sharing"
               className="nav-link cv-link"
