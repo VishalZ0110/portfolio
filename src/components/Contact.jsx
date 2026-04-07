@@ -1,6 +1,6 @@
 const Contact = () => {
   const socialLinks = [
-    { icon: 'fab fa-github', label: 'GitHub', url: 'https://github.com/VishalZ123' },
+    { icon: 'fab fa-github', label: 'GitHub', url: 'https://github.com/VishalZ0110' },
     { icon: 'fas fa-graduation-cap', label: 'Google Scholar', url: 'https://scholar.google.com/citations?user=ny2znaIAAAAJ&hl=en' },
     { icon: 'fab fa-linkedin', label: 'LinkedIn', url: 'https://www.linkedin.com/in/vishalyadavz789/' },
     { icon: 'fab fa-twitter', label: 'Twitter/X', url: 'https://x.com/zeheralv' },
