@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="container">
-        <p>&copy; 2023 Vishal Yadav. All rights reserved.</p>
+        <p>&copy; 2026 Vishal Yadav. All rights reserved.</p>
       </div>
     </footer>
   );
