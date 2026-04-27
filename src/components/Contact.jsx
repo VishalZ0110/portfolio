@@ -20,7 +20,7 @@ const Contact = () => {
             <div className="contact-details">
               <div className="contact-item">
                 <i className="fas fa-envelope"></i>
-                <span>vishalvy789[at]gmail[dot]com</span>
+                <a href="mailto:vishalvy789@gmail.com" className="contact-email">vishalvy789@gmail.com</a>
               </div>
               <div className="contact-item">
                 <i className="fas fa-map-marker-alt"></i>
