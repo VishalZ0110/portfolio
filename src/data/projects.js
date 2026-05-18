@@ -1,14 +1,25 @@
 // Projects Data
 // Add, edit, or remove projects here
 
+import barebonesProjectImage from '../assets/barebones-project.png';
 import headAvatarImage from '../assets/head_avatar.jpg';
 import vitlocImage from '../assets/vitloc.png';
 import pcrImage from '../assets/pcr.jpg';
-import retinopathyImage from '../assets/retinopathy.png';
 
 export const projects = [
   {
     id: 1,
+    title: 'BareBones: Benchmarking Zero-Shot Geometric Comprehension in VLMs',
+    tech: 'Python • PyTorch • VLMs',
+    description: "Designed WTP-Bench, a fine-grained dataset of 1,160 Pokémon silhouettes across 8 generational tiers, to evaluate whether modern Vision-Language Models (VLMs) truly understand geometric structure by removing texture, color, and context. Evaluated 26 proprietary and open-weight models, revealing a consistent 'Texture Bias Cliff' where models suffer severe accuracy drops on silhouettes, exposing major limitations in shape-based reasoning and geometric grounding.",
+    image: barebonesProjectImage,
+    links: [
+      { label: 'arXiv', url: 'https://arxiv.org/abs/2604.10528' },
+      { label: 'GitHub', url: 'https://github.com/VishalZ0110/WTP-Bench' }
+    ]
+  },
+  {
+    id: 2,
     title: 'Head Avatar',
     tech: '3D Morphable Models • Python • Pytorch',
     description: "Created a system to generate videos of a target identity driven by another person's poses and expressions. Used 3D face reconstruction for dataset creation and trained a diffusion-based model to generate realistic RGB frames.",
@@ -16,7 +27,7 @@ export const projects = [
     links: []
   },
   {
-    id: 2,
+    id: 3,
     title: 'ViTLoc (Robotics Course Project for Localisation Task)',
     tech: 'Python • Pytorch • NeRF',
     description: 'Enhanced pose estimation by replacing traditional CNN backbones with Vision Transformers (ViT) to capture global context and long-range dependencies.',
@@ -27,7 +38,7 @@ export const projects = [
     ]
   },
   {
-    id: 3,
+    id: 4,
     title: 'Point Cloud Registration for Cultural Heritage Site Restoration',
     tech: 'Python • 3D Computer Vision • PyTorch',
     description: 'Reconstructed detailed 3D models of Indian heritage sites by combining multiple partial and noisy scans. Explored both classical and learning-based methods to accurately align complex 3D data. First-place winner of the NCVPRIPG23 3D challenge.',
@@ -39,14 +50,6 @@ export const projects = [
     links: [
       { label: 'Springer', url: 'https://link.springer.com/chapter/10.1007/978-981-97-5212-6_18' }
     ]
-  },
-  {
-    id: 4,
-    title: 'Detection of Hypertensive Retinopathy',
-    tech: 'Python • Computer Vision • PyTorch',
-    description: 'Built a deep learning model to detect early signs of Hypertensive Retinopathy from retinal fundus images. Focused on improving diagnostic accuracy through preprocessing, augmentation, and CNN-based feature learning.',
-    image: retinopathyImage,
-    links: []
   }
 ];
 
