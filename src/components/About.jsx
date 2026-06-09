@@ -1,13 +1,13 @@
 const About = () => {
   const skills = [
-    '3D Computer Vision',
+    '3D Vision',
     'Computer Vision',
     'Machine Learning',
+    'Multimodal LLMs (MLLMs)',
+    'Agents',
     'Software Development',
     '3D Morphable Models',
     'Scene Understanding',
-    'Python',
-    'PyTorch'
   ];
 
   return (
@@ -17,7 +17,7 @@ const About = () => {
         <div className="about-content">
           <div className="about-text">
             <p>
-              I am a <strong>Research Engineer</strong> at{' '}
+              I am a <strong>Member of Technical Staff</strong> at{' '}
               <a href="https://www.styldod.com/" target="_blank" rel="noopener noreferrer">
                 Styldod Inc.
               </a>{' '}
@@ -73,4 +73,3 @@ const About = () => {
 };
 
 export default About;
-

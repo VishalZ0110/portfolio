@@ -6,12 +6,10 @@ const Research = () => {
         <div className="research-content">
           <div className="research-text">
             <p>
-              My research interest lies in the intersection of 3D Computer Vision and Applied Research. I am
-              particularly interested in 3D Humans, 3D Reconstruction, 3D Scene Understanding and Reasoning.
+              My research interests lie at the intersection of 3D Computer Vision, Multimodal AI, and Spatial Intelligence. I am interested in developing models that jointly reason about geometry, semantics, physical constraints, and human interactions within complex environments.
               <br />
-              My industry experience has provided me with valuable insights into how AI and 3D vision are
-              transforming real estate and interior design. This has sparked my interest in applying my
-              research to solve real-world problems in this domain.
+              <br />
+              My work spans 3D reconstruction, scene understanding, digital humans, and multimodal systems, with a broader interest in world models and spatially intelligent AI.
             </p>
           </div>
         </div>

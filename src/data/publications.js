@@ -10,7 +10,7 @@ export const publications = [
     id: 1,
     title: 'BareBones: Benchmarking Zero-Shot Geometric Comprehension in VLMs',
     authors: 'Baranwal, A., Yadav, V., Rajora, A.',
-    venue: 'Extended abstract at FGVC13 Workshop @ CVPR 2026. Under review at COLM 2026.',
+    venue: 'Non-Archival track at FGVC13 Workshop @ CVPR 2026. Under review at COLM 2026.',
     image: barebonesImage,
     links: [
       { label: 'arXiv', url: 'https://arxiv.org/abs/2604.10528' },

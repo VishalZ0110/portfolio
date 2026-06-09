@@ -10,7 +10,7 @@ export const experiences = [
       { title: 'Member of Technical Staff (L3)', period: 'Apr 2026 - Present' },
       { title: 'Research Engineer', period: 'June 2024 - Apr 2026' }
     ],
-    description: 'Currently building an end-to-end system that converts 2D architectural floor plans into interactive 3D indoor scenes using computer vision and procedural geometry reconstruction. Previously, as a Research Engineer, led R&D on key AI products including Dream Furniture (a VLM-driven 3D placement system), Real Paint (photorealistic wall recoloring), a Conversational Context Outreach pipeline, and a suite of virtual staging and enhancement tools powering millions of image generations.',
+    description: 'Currently driving R&D on ReimagineHome\'s AI platform, developing a persistent Home Graph for design memory and personalization, and a Floor Plan to 3D system for generating interactive indoor environments. Previously, as a Research Engineer, led R&D on key AI products including Dream Furniture (a VLM-driven 3D placement system), Real Paint (photorealistic wall recoloring), a Conversational Context Outreach pipeline, and a suite of virtual staging and enhancement tools powering millions of image generations.',
     achievements: ['3D Scene Understanding', 'VLMs', 'Generative AI', 'Computer Vision']
   },
   {
