@@ -5,8 +5,19 @@ import barebonesProjectImage from '../assets/barebones-project.png';
 import headAvatarImage from '../assets/head_avatar.jpg';
 import vitlocImage from '../assets/vitloc.png';
 import pcrImage from '../assets/pcr.jpg';
+import rehueImage from '../assets/rehue.png';
 
 export const projects = [
+  {
+    id: 0,
+    title: 'ReHue',
+    tech: 'ReactJS • ONNX Runtime Web • SAM',
+    description: 'ReHue is a web application that enables users to preview realistic color changes on objects within an image before making real world decisions. Users can precisely select one or more regions, assign different colors, refine selections, and compare multiple variations while preserving their progress across sessions. By transforming imagined color changes into realistic visual previews, the project reduces the uncertainty and effort involved in choosing colors for objects such as walls, furniture, clothing, products, and vehicles.',
+    image: rehueImage,
+    links: [
+      { label: 'Demo', url: 'https://tryrehue.vercel.app/' }
+    ]
+  },
   {
     id: 1,
     title: 'BareBones: Benchmarking Zero-Shot Geometric Comprehension in VLMs',
