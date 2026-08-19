@@ -52,7 +52,8 @@ const Navbar = () => {
 
   const navLinks = [
     { href: '#about', label: 'About' },
-    { href: '#research', label: 'Research Interests' },
+    { href: '#research', label: 'Research' },
+    { href: '#education', label: 'Education' },
     { href: '#publications', label: 'Publications' },
     { href: '#projects', label: 'Projects' },
     { href: '#experience', label: 'Experience' },
@@ -89,16 +90,6 @@ const Navbar = () => {
               )}
             </li>
           ))}
-          <li className="nav-item">
-            <a
-              href="https://drive.google.com/file/d/1PPTeNhWFhypn_v7nq-tzXjVbl-wppqZ-/view?usp=sharing"
-              className="nav-link cv-link"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fas fa-file-alt"></i> CV
-            </a>
-          </li>
         </ul>
         <div className={`hamburger ${isMenuOpen ? 'active' : ''}`} onClick={toggleMenu}>
           <span className="bar"></span>

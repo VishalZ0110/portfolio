@@ -1,13 +1,13 @@
-const Contact = () => {
-  const socialLinks = [
-    { icon: 'fab fa-github', label: 'GitHub', url: 'https://github.com/VishalZ0110' },
-    { icon: 'fas fa-graduation-cap', label: 'Google Scholar', url: 'https://scholar.google.com/citations?user=ny2znaIAAAAJ&hl=en' },
-    { icon: 'fab fa-linkedin', label: 'LinkedIn', url: 'https://www.linkedin.com/in/vishalyadavz789/' },
-    { icon: 'fab fa-twitter', label: 'Twitter/X', url: 'https://x.com/zeheralv' },
-    { icon: 'fab fa-instagram', label: 'Instagram', url: 'https://instagram.com/vishal_yadav._._' },
-    { icon: 'fas fa-envelope', label: 'Email', url: 'mailto:vishalvy789@gmail.com' }
-  ];
+const socialLinks = [
+  { icon: 'fab fa-github', label: 'GitHub', url: 'https://github.com/VishalZ0110' },
+  { icon: 'fas fa-graduation-cap', label: 'Google Scholar', url: 'https://scholar.google.com/citations?user=ny2znaIAAAAJ&hl=en' },
+  { icon: 'fab fa-linkedin', label: 'LinkedIn', url: 'https://www.linkedin.com/in/vishalyadavz789/' },
+  { icon: 'fab fa-twitter', label: 'Twitter/X', url: 'https://x.com/zeheralv' },
+  { icon: 'fab fa-instagram', label: 'Instagram', url: 'https://instagram.com/vishal_yadav._._' },
+  { icon: 'fas fa-envelope', label: 'Email', url: 'mailto:vishalvy789@gmail.com' }
+];
 
+const Contact = () => {
   return (
     <section id="contact" className="contact">
       <div className="container">
@@ -53,4 +53,3 @@ const Contact = () => {
 };
 
 export default Contact;
-

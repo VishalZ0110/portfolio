@@ -1,6 +1,7 @@
 import Hero from '../components/Hero';
 import About from '../components/About';
 import Research from '../components/Research';
+import Education from '../components/Education';
 import Publications from '../components/Publications';
 import Projects from '../components/Projects';
 import Experience from '../components/Experience';
@@ -14,9 +15,10 @@ const Home = () => {
       <Hero />
       <About />
       <Research />
-      <Experience />
+      <Education />
       <Publications />
       <Projects />
+      <Experience />
       <Contact />
       <Footer />
       <Analytics />
@@ -25,4 +27,3 @@ const Home = () => {
 };
 
 export default Home;
-
